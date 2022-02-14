@@ -1,0 +1,53 @@
+{
+  "name": "One Page Survey",
+  "namespace": "MariusBezuidenhout\\OnePageSurvey",
+  "description": "Redirects users accessing the survey to this module which displays the survey as a single page",
+  "documentation": "README.md",
+  "authors": [
+    {
+      "name": "Marius Bezuidenhout",
+      "email": "marius dot bezuidenhout at gmail dot com",
+      "institution": "Private"
+    }
+  ],
+
+  "permissions": [
+    "redcap_every_page_top"
+  ],
+
+  "enable-every-page-hooks-on-system-pages": false,
+
+  "links": {
+    "project": [
+      {
+        "name": "One Page",
+        "icon": "application_go",
+        "url": "survey-page.php"
+      }
+    ],
+    "control-center": [
+    ]
+  },
+
+  "no-auth-pages": [
+
+  ],
+
+  "project-settings": [
+  ],
+
+  "system-settings": [
+
+  ],
+
+  "crons": [
+
+  ],
+
+  "compatibility": {
+    "php-version-min": "",
+    "php-version-max": "",
+    "redcap-version-min": "",
+    "redcap-version-max": ""
+  }
+}
